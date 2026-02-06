@@ -1,0 +1,42 @@
+{
+  "id": "evermem-bridge",
+  "kind": "memory",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiUrl": {
+        "type": "string"
+      },
+      "defaultUserId": {
+        "type": "string"
+      },
+      "autoRecall": {
+        "type": "boolean"
+      },
+      "autoCapture": {
+        "type": "boolean"
+      }
+    }
+  },
+  "uiHints": {
+    "apiUrl": {
+      "label": "EverMemOS API URL",
+      "placeholder": "http://localhost:8001/api/v1",
+      "help": "Base URL of the EverMemOS REST API"
+    },
+    "defaultUserId": {
+      "label": "Default User ID",
+      "placeholder": "openclaw",
+      "help": "Default user ID for memory operations"
+    },
+    "autoRecall": {
+      "label": "Auto-Recall",
+      "help": "Automatically inject relevant memories before agent runs"
+    },
+    "autoCapture": {
+      "label": "Auto-Capture",
+      "help": "Automatically capture important information from user messages"
+    }
+  }
+}
