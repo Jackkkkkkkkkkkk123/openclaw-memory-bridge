@@ -2,6 +2,12 @@
 
 🧠 **Persistent memory system for continuous conversations with your OpenClaw agents**
 
+<p align="center">
+  🌐 <strong>Languages:</strong> 
+  <strong>English</strong> | 
+  <a href="README.zh.md">简体中文</a>
+</p>
+
 ## Features
 
 - 💾 **Persistent Memory**: Remember conversations across sessions with EverMemOS
