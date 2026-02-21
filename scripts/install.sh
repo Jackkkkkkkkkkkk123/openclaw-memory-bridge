@@ -52,9 +52,9 @@ else
     echo -e "${BLUE}📥 从 GitHub 下载插件文件...${NC}"
     
     # Download plugin files
-    curl -sSL "https://raw.githubusercontent.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge/main/plugins/evermem-bridge/index.ts" -o "$PLUGIN_DIR/index.ts"
-    curl -sSL "https://raw.githubusercontent.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge/main/plugins/evermem-bridge/package.json" -o "$PLUGIN_DIR/package.json"
-    curl -sSL "https://raw.githubusercontent.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge/main/plugins/evermem-bridge/openclaw.plugin.json" -o "$PLUGIN_DIR/openclaw.plugin.json"
+    curl -sSL "https://raw.githubusercontent.com/TheSoulGiver/openclaw-memory-bridge/main/plugins/evermem-bridge/index.ts" -o "$PLUGIN_DIR/index.ts"
+    curl -sSL "https://raw.githubusercontent.com/TheSoulGiver/openclaw-memory-bridge/main/plugins/evermem-bridge/package.json" -o "$PLUGIN_DIR/package.json"
+    curl -sSL "https://raw.githubusercontent.com/TheSoulGiver/openclaw-memory-bridge/main/plugins/evermem-bridge/openclaw.plugin.json" -o "$PLUGIN_DIR/openclaw.plugin.json"
     
     echo -e "${GREEN}✅ 插件文件下载完成${NC}"
 fi
@@ -143,6 +143,6 @@ echo "   memory_store(content='内容')   # 存储记忆"
 echo "   memory_get(memory_type='profile')  # 获取用户画像"
 echo ""
 echo -e "${BLUE}📖 文档:${NC}"
-echo "   https://github.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge"
+echo "   https://github.com/TheSoulGiver/openclaw-memory-bridge"
 echo ""
 echo -e "${GREEN}享受持久化记忆的 AI 体验！ 🧠✨${NC}"

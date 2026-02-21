@@ -55,14 +55,14 @@
 ### 一键安装
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge/main/scripts/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/TheSoulGiver/openclaw-memory-bridge/main/scripts/install.sh | bash
 ```
 
 ### 手动安装
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge.git
+   git clone https://github.com/TheSoulGiver/openclaw-memory-bridge.git
    cd openclaw-memory-bridge
    ```
 
@@ -251,7 +251,7 @@ docker-compose ps
 ### 快速开发设置
 
 ```bash
-git clone https://github.com/Jackkkkkkkkkkkk123/openclaw-memory-bridge.git
+git clone https://github.com/TheSoulGiver/openclaw-memory-bridge.git
 cd openclaw-memory-bridge
 
 # 设置开发环境
